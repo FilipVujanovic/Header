@@ -1,16 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&display=swap');
+/*
+font-family: 'Courier Prime', monospace;
+font-family: 'Source Code Pro', monospace;
+*/
+
 *{
     box-sizing: border-box;
     text-decoration: none;
 }
 body{
     margin: 0;
-    background-color: antiquewhite;
+    background-color: #fef9f8;
 }
 
 .header_main {
-    border-top: 10px solid rgb(248, 178, 73);
+    border-top: 10px solid #ef9273;
     border-bottom: 5px solid white;
-    background-color: antiquewhite;
+    background-color: #fef9f8;
     padding: 10px;
 }
 .header2 {
@@ -53,4 +60,13 @@ body{
 .header1_li a:active {
     color: #fef9f8;
     background: #ef9273;
-        border-radius: 40px;}
+    border-radius: 40px;
+}
+.hero-wrapper {
+    font-family: 'Source Code Pro', monospace;
+    background-image: url(./slike.img/hero-image.png);
+    height: 70vh;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
