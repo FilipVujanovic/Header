@@ -70,3 +70,67 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.plans-wrapper {
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Source Code Pro', monospace;
+
+}
+.plans-wrapper-article{
+    border: 2px solid;
+    border-radius: 25px;
+    padding: 6px;
+    background-color: rgb(254, 183, 159);
+    padding-top: 50px;
+    padding-bottom: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex-basis: 30%;
+    align-items: center;
+    
+}
+.advanced {
+    background-color: rgb(253, 153, 119);
+    min-height: 600px;
+}
+.intermediate{
+    order: 1;
+}
+.plans-wrapper-title {
+    flex-basis: 100%;
+    text-align: center;
+}
+.plans-wrapper-article-button{
+    font-family: 'Courier Prime', monospace;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 7px 20px;
+    font-size: 17px;
+    background-color: #fef9f8;
+    margin-top: 10px;
+}
+.plans-wrapper-article-button:hover{
+    background-color: rgb(179, 179, 179);
+    transition: 0.2s;
+    cursor: pointer;
+}
+.plans-wrapper-article-button:active{
+    background-color: rgb(112, 112, 112)
+}
+.advanced-button{
+    margin-top: 20px;
+}
+.plans-wrapper-article h2:nth-child(2) {
+    text-decoration: underline;
+}
+.plans-wrapper-article h1,h2{
+    font-weight: bolder;
+}
