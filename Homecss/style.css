@@ -19,6 +19,8 @@ body{
     border-bottom: 5px solid white;
     background-color: #fef9f8;
     padding: 10px;
+    position:sticky;
+    top: 0;
 }
 .header2 {
     display: inline-block;
@@ -133,4 +135,27 @@ body{
 }
 .plans-wrapper-article h1,h2{
     font-weight: bolder;
+}
+.about-us{
+    padding: 50px 0 50px 0;
+    font-family: 'Courier Prime', monospace;
+    background-color: #eb9a7f;
+    display: flex;
+    flex-flow: column wrap;
+}
+.about-us-abouttxt {
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    text-shadow: 2px 1px 3px white;  
+}
+.about-us-abouttxt h3{
+    display: flex;
+    text-shadow: 1px 1px 3px #e4dcda;
+    font-weight: lighter;
+    text-align: center;
+    width: 50%
 }
